@@ -1,21 +1,31 @@
 {
   "name": "mostaqel_fruits_react",
+  "homepage": "https://YousefMohamed117.github.io/TrojanExpLtd.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "animate.css-react": "^1.1.0",
+    "emailjs-com": "^3.2.0",
+    "jquery": "^3.7.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-intl": "^6.6.8",
+    "react-router-dom": "^6.25.1",
     "react-scripts": "5.0.1",
+    "swiper": "^11.1.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +44,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.30",
+    "gh-pages": "^6.1.1"
   }
 }
