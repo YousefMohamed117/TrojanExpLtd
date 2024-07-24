@@ -1,6 +1,5 @@
 {
   "name": "mostaqel_fruits_react",
-  "homepage": "https://YousefMohamed117.github.io/TrojanExpLtd.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,9 +12,11 @@
     "jquery": "^3.7.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
     "react-intl": "^6.6.8",
     "react-router-dom": "^6.25.1",
     "react-scripts": "5.0.1",
+    "sitemap-generator-cli": "^7.5.0",
     "swiper": "^11.1.5",
     "web-vitals": "^2.1.4"
   },

@@ -5,6 +5,7 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import { Link } from "react-router-dom";
 import { FormattedMessage, useIntl } from "react-intl";
+import { Helmet } from "react-helmet";
 
 // Install Swiper modules
 // Import Swiper styles
@@ -68,6 +69,20 @@ const Home = () => {
   }, [locale]);
   return (
     <>
+      <Helmet>
+        <title>TrojanExpLtd - Exporting Fresh Fruits from Africa</title>
+        <meta
+          name="description"
+          content="TrojanExpLtd specializes in exporting fresh avocados, mangoes, pineapples, and passion fruits from Africa to Gulf countries."
+        />
+        <meta
+          name="keywords"
+          content="استيراد من كينيا, افوكادو من كينيا, استيراد من افريقيا, فواكة من افريقيا,Trojan export 
+Trojan fruit export ,
+تروجان لتصدير الفواكة من كينيا ,
+,تروجان لتصدير الافوكادو شركة استيراد من افريقيا, شركة فواكة من كينيا, شركة استيراد فواكة من كينيا, شركة استيراد فواكة من افريقيا, شركة استيراد افوكادو من كينيا"
+        />
+      </Helmet>
       {/*PreLoader*/}
       <div className="loader">
         <div className="loader-inner">

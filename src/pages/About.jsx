@@ -10,7 +10,6 @@ const About = () => {
   return (
     <div>
       <>
-        {/* breadcrumb-section */}
         <div className="breadcrumb-section about breadcrumb-bg">
           <div className="container">
             <div className="row ">
@@ -27,8 +26,6 @@ const About = () => {
             </div>
           </div>
         </div>
-        {/* end breadcrumb section */}
-        {/* advertisement section */}
         <div className="abt-section mb-150 mt-150">
           <div className="container">
             <div className="row">
@@ -145,8 +142,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        {/* end advertisement section */}
-        {/* featured section */}
+        
+        
         <div className="feature-bg">
           <div className="container">
             <div className="row ">
@@ -232,7 +229,61 @@ const About = () => {
             </div>
           </div>
         </div>
-        {/* end featured section */}
+        <div className="abt-section mb-150 mt-150">
+          <div className="container">
+            <div className="row">
+                <Swiper
+                 dir={isRtl ? 'rtl' : 'ltr'}
+                 key={isRtl}
+                  slidesPerView={1}
+                  spaceBetween={30}
+                  loop={true}
+                  autoplay={{
+                    delay: 5000,
+                    disableOnInteraction: false,
+                  }}
+                  navigation={true}
+                  breakpoints={{
+                    767:{
+                      slidesPerView:2
+                    }
+                  }}
+                  speed={300}
+                  modules={[Navigation,Autoplay]}
+                  className="certificates"
+                >
+                  <SwiperSlide>
+                    <img src="/assets/img/certificates/1.jpeg" alt="" />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img src="/assets/img/certificates/2.jpeg" alt="" />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img src="/assets/img/certificates/5.jpeg" alt="" />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img src="/assets/img/certificates/6.jpeg" alt="" />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img src="/assets/img/certificates/7.jpeg" alt="" />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img src="/assets/img/certificates/8.jpeg" alt="" />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img src="/assets/img/certificates/3.jpeg" alt="" />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img src="/assets/img/certificates/4.jpeg" alt="" />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img src="/assets/img/certificates/9.jpeg" alt="" />
+                  </SwiperSlide>
+
+                </Swiper>
+            </div>
+          </div>
+        </div>
       </>
     </div>
   );
