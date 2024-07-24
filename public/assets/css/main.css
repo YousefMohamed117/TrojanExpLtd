@@ -280,7 +280,12 @@ p:last-child {
   background: #fff;
   overflow-x: hidden;
 }
-
+.hide-logo{
+  opacity: 0;
+}
+.certificates img{
+  border: 1px solid black;
+}
 .loader-inner {
   position: absolute;
   left: 50%;
