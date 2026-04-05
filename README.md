@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# 🍊 TrojanExp Ltd — African Fruit Import Company
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A bilingual corporate website built for a fruit import company sourcing products from Africa. Clean, professional, and fully functional with a working contact system.
 
-## Available Scripts
+**[→ Live Site](https://trojanexpltd.netlify.app/)**
 
-In the project directory, you can run:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d85134ce-b62f-4d31-9bc5-58aaf68425ca" />
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Overview
 
-### `npm test`
+TrojanExp Ltd needed a professional web presence to represent their import business and make it easy for potential partners and buyers to get in touch. The site supports both Arabic and English audiences with a seamless language toggle and a contact form that delivers messages directly to the client's Gmail inbox.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🌍 **Bilingual support** — full Arabic and English versions with instant language switching
+- 📬 **Working contact form** — messages delivered directly to client's email via EmailJS, no backend required
+- 🏢 **Company profile** — services, product catalog, and about sections
+- ⚡ **Fast & responsive** — optimized across all screen sizes and devices
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tech Stack
 
-### `npm run eject`
+| | |
+|---|---|
+| Framework | React.js |
+| Styling | CSS / SASS |
+| Email | EmailJS |
+| i18n | React i18next |
+| Hosting | Netlify |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How the contact form works
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Instead of building a backend just to send emails, the form uses **EmailJS** — which connects directly to the client's Gmail account and delivers form submissions as formatted emails. Zero server costs, zero maintenance.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Running locally
+```bash
+git clone https://github.com/YousefMohamed117/TrojanExpLtd.git
+cd TrojanExpLtd
+npm install
+# Add your EmailJS credentials to .env
+REACT_APP_EMAILJS_SERVICE_ID=your_service_id
+REACT_APP_EMAILJS_TEMPLATE_ID=your_template_id
+REACT_APP_EMAILJS_PUBLIC_KEY=your_public_key
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Screenshots
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/557c8179-7f8b-43ac-9e5d-cf547f947d9b" />
